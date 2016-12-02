@@ -27,14 +27,14 @@ Przed przystąpieniem do rozwiązywania zadań przeczytaj poniższe wskazówki
 #### Zadanie 1. (3 pkt)
 
 1. Jakiego narzędzia użyjesz do zaimportowania zewnętrznych bibliotek do Pythona?
-2. Co zrobisz, jeśli w projekcie A używasz biblioteki libA, a w projekcie B &ndash; libB, które wzajemnie się wykluczają?
+2. Co zrobisz, jeśli w projekcie A używasz biblioteki libA w wersji 1.1, a w projekcie B &ndash; libA w wersji 1.3?
 3. Jak aktywujesz środowisko wirtualne, a jak je deaktywujesz?
 
 
 
 #### Zadanie 2. (4pkt)
 
-Napisz funkcję `name_sorter`, która przyjmie jako parametr listę imion męskich i żeńskich. 
+Napisz funkcję `name_sorter`, która przyjmie jako parametr listę imion. 
 
 Funkcja ma zwrócić słownik:
 * klucz o nazwie `male` ma mieć jako wartość imiona męskie z listy wejściowej,
@@ -42,7 +42,7 @@ Funkcja ma zwrócić słownik:
 
 Dodatkowo, posortuj imiona w ramach swoich list.
 
-**Hint:** Możesz przyjąć, że imiona żeńskie, to te, które kończą się literą "a". Barnabę możemy spokojnie zignorować. ;-)
+Należy przyjąć, że imiona żeńskie, to te, które kończą się literą "a". Barnabę możemy spokojnie zignorować. ;-)
 
 **Przykład:**
 ```python
@@ -73,7 +73,7 @@ Napisz funkcję `div`, która przyjmie dwa argumenty liczbowe: `a` i `b`. Funkcj
 
 #### Zadanie 5. (4pkt)
 
-Napisz funkcję `find_longest_word`, która przyjmie napis w postaci łańcucha tekstowego i zwróci najdłuższe słowo z tego łańcucha. W przypadku, gdy kilka słów jest tej samej długości zwróć pierwsze z nich.
+Napisz funkcję `find_longest_word`, która przyjmie napis w postaci łańcucha tekstowego i zwróci najdłuższe słowo z tego łańcucha. W przypadku, gdy w oryginalnym napisie kilka słów jest tej samej długości, zwróć pierwsze z nich.
 
 **Przykład:**
 ```python
