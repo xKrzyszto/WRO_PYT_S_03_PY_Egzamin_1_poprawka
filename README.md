@@ -27,7 +27,7 @@ Przed przystąpieniem do rozwiązywania zadań przeczytaj poniższe wskazówki
 #### Zadanie 1. (3 pkt)
 
 1. Jakiego narzędzia użyjesz do zaimportowania zewnętrznych bibliotek do Pythona?
-2. Co zrobisz, jeśli w projekcie A używasz biblioteki libA w wersji 1.1, a w projekcie B &ndash; libA w wersji 1.3?
+2. Wyobraź sobie, że na swojej stacji roboczej rozwijasz równolegle dwa projekty: A i B. Projekt A używa biblioteki pyLibA w wersji 1.1, projekt B używa pyLibA w wersji 1.3. Jak pogodzisz dwie wersje biblioteki na swoim komputerze?
 3. Jak aktywujesz środowisko wirtualne, a jak je deaktywujesz?
 
 
