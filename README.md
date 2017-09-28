@@ -6,11 +6,14 @@ Przed przystąpieniem do rozwiązywania zadań przeczytaj poniższe wskazówki
 
 ## Jak zacząć?
 
-1. Stwórz [*fork*][forking] repozytorium z zadaniami.
-2. [*Sklonuj*][ref-clone] repozytorium na swój komputer.
-3. Rozwiąż zadania i [*skomituj*][ref-commit] zmiany do swojego repozytorium.
-4. [*Wypchnij*][ref-push] zmiany do swojego repozytorium na GitHubie.
-5. Stwórz [*pull request*][pull-request] do oryginalnego repozytorium, gdy skończysz wszystkie zadania.
+1. Stwórz [*fork*](https://guides.github.com/activities/forking/) repozytorium z zadaniami.
+2. Sklonuj repozytorium na swój komputer. Użyj do tego komendy `git clone adres_repozytorium`
+Adres repozytorium możesz znaleźć na stronie repozytorium po naciśnięciu w guzik "Clone or download".
+3. Rozwiąż zadania i skomituj zmiany do swojego repozytorium. Użyj do tego komendy `git commit nazwa_pliku`.
+Jeżeli chcesz zacommitować wszystkie zmienione pliki użyj `git commit .` 
+Pamiętaj że kropka na końcu jest ważna!
+4. Wypchnij zmiany do swojego repozytorium na GitHubie.  Użyj do tego komendy `git push origin master`
+5. Stwórz [*pull request*](https://help.github.com/articles/creating-a-pull-request) do oryginalnego repozytorium, gdy skończysz wszystkie zadania.
 
 #### Pamiętaj, że pull request musi być stworzony, aby wykładowca dostał Twoje odpowiedzi.
 
@@ -84,12 +87,4 @@ disturbing
 ```
 
 #### Zadanie 6. (4pkt)
-Napisz funkcję `poker_hand`, która wylosuje i **wyświetli** na ekranie 5 kart z puli gart do gry. Listę z kartami znajdziesz w pliku **answers.py**. Pamietaj, że musisz usunąć kartę z puli, gdy ją wylosujesz.
-
-<!-- Links -->
-[forking]: https://guides.github.com/activities/forking/
-[ref-clone]: http://gitref.org/creating/#clone
-[ref-commit]: http://gitref.org/basic/#commit
-[ref-push]: http://gitref.org/remotes/#push
-[pull-request]: https://help.github.com/articles/creating-a-pull-request
-[ref-multiple-forms]: http://stackoverflow.com/a/14071321
+Napisz funkcję `poker_hand`, która wylosuje i **wyświetli** na ekranie 5 kart z puli kart do gry. Listę z kartami znajdziesz w pliku **answers.py**. Pamietaj, że musisz usunąć kartę z puli, gdy ją wylosujesz.
