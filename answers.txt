@@ -1,3 +1,16 @@
 # W tym pliku napisz odpowiedzi na pytania opisowe.
 
 Zadanie 1.
+
+1.Jakiego narzędzia użyjesz do zaimportowania zewnętrznych bibliotek do Pythona?
+Użyję komendy 'from'. Importując np. Flaska, napiszę na górze strony "from flask import Flask".
+
+
+2. Wyobraź sobie, że na swojej stacji roboczej rozwijasz równolegle dwa projekty: A i B. Projekt A używa biblioteki pyLibA w wersji 1.1, projekt B używa pyLibA w wersji 1.3. Jak pogodzisz dwie wersje biblioteki na swoim komputerze?
+
+Biblioteki odseparuję. Stworzę środowisko wirtualne (tzw. "piaskownicę",  ang. 'sandbox') dla każdego z tych projektów. Kiedy środowiska są od siebie oddzielone, projekty mogą używać wzajemnie wykluczających się bibliotek.
+
+
+3. Jak aktywujesz środowisko wirtualne, a jak je deaktywujesz?
+Kiedy zainstalowany jest program virtualenv, należy środowisko wirtualne założyć, wydając komendę. W przypadku Pythona 3 będzie to virtualenv -p python 3 <nazwa_folderu>. Najlepiej, aby folder/katalog miał w nazwie 'env'. Jeśli kaltalog ma nazwę 'env, aktywuje się je komendą 'source env/bin/activate' lub . env/bin/activate. Dezaktywacja jest bardzo prosta. Wystarczy użyć komendy 'deactivate'.
+
